@@ -12950,3 +12950,809 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.03-03.26.35:626][460]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=2
 [2026.02.03-03.26.35:633][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
 [2026.02.03-03.26.35:685][463]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2026.02.03-03.27.43:464][773]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.03-03.27.43:468][773]LogContentBundle: [NewMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.03-03.27.43:468][773]LogWorldPartition: Display: GenerateStreaming for 'NewMap' started...
+[2026.02.03-03.27.43:469][773]LogWorldPartition: Display: GenerateStreaming for 'NewMap' took 776 us (total: 23.221 ms)
+[2026.02.03-03.27.43:469][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.03-03.27.43:469][773]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2026.02.03-03.27.43:483][773]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.03-03.27.43:487][773]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.956 ms (total: 99.176 ms)
+[2026.02.03-03.27.43:487][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017543s)
+[2026.02.03-03.27.43:487][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.017576s)
+[2026.02.03-03.27.43:507][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.02.03-03.27.43:510][773]LogChaosDD: Creating Chaos Debug Draw Scene for world NewMap
+[2026.02.03-03.27.43:511][773]LogWorldPartition: ULevel::OnLevelLoaded(NewMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.03-03.27.43:511][773]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.03-03.27.43:511][773]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_NewMap.NewMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.03-03.27.43:511][773]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.03-03.27.43:516][773]LogWorldPartition: Display: WorldPartition initialize took 5.067 ms (total: 382.188 ms)
+[2026.02.03-03.27.43:516][773]LogPlayLevel: PIE: World Init took: (0.006647s)
+[2026.02.03-03.27.43:517][773]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2026.02.03-03.27.43:517][773]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.03-03.27.43:517][773]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.03-03.27.43:517][773]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.03-03.27.43:517][773]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.03-03.27.43:517][773]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.03-03.27.43:517][773]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.03-03.27.43:517][773]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.03-03.27.43:517][773]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.03-03.27.43:517][773]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.03-03.27.43:517][773]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.03-03.27.43:517][773]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.03-03.27.43:520][773]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.03-03.27.43:539][773]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2026.02.03-03.27.43:539][773]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.03-03.27.43:539][773]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.03-03.27.43:539][773]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.03-03.27.43:539][773]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2026.02.03-03.27.43:540][773]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2026.02.03-03.27.43:542][773]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2026.02.03-03.27.43:542][773]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2026.02.03-03.27.43:542][773]LogInit: FAudioDevice initialized with ID 26.
+[2026.02.03-03.27.43:542][773]LogAudio: Display: Audio Device (ID: 26) registered with world 'NewMap'.
+[2026.02.03-03.27.43:542][773]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2026.02.03-03.27.43:545][773]LogLoad: Game class is 'BP_Tetris3DGM_C'
+[2026.02.03-03.27.43:547][773]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2026.02.02-22.27.43
+[2026.02.03-03.27.43:547][773]LogWorld: Bringing up level for play took: 0.001461
+[2026.02.03-03.27.43:550][773]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2026.02.03-03.27.43:551][773]LogStreaming: Display: FlushAsyncLoading(1086,1087,1088): 3 QueuedPackages, 0 AsyncPackages
+[2026.02.03-03.27.43:555][773]PIE: Server logged in
+[2026.02.03-03.27.43:557][773]PIE: Play in editor total start time 0.089 seconds.
+[2026.02.03-03.27.43:557][773]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_MoveX'
+[2026.02.03-03.27.43:598][774]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.03-03.27.44:280][814]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.27.45:079][862]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.27.45:878][910]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.27.46:061][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-03.27.46:061][919]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_NewMap
+[2026.02.03-03.27.46:061][919]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.03-03.27.46:061][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-03.27.46:061][919]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_NewMap.NewMap
+[2026.02.03-03.27.46:062][919]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.03-03.27.46:066][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-03.27.46:086][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-03.27.46:086][919]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2026.02.03-03.27.46:086][919]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=4
+[2026.02.03-03.27.46:088][919]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=2
+[2026.02.03-03.27.46:094][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.02.03-03.27.46:132][921]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2026.02.03-03.28.03:495][957]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.28.03:564][957]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Piece3D] ([2] browsable assets)...
+[2026.02.03-03.28.03:565][957]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Piece3D]
+[2026.02.03-03.28.03:565][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Piece3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Piece3D.uasset" SILENT=true
+[2026.02.03-03.28.03:585][957]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Piece3D
+[2026.02.03-03.28.03:585][957]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Piece3DF70F11E542219B8B31AB1A9760D5F870.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Piece3D.uasset'
+[2026.02.03-03.28.03:594][957]LogFileHelpers: InternalPromptForCheckoutAndSave took 98.202 ms (total: 3.57 sec)
+[2026.02.03-03.28.03:667][957]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.28.03:667][957]LogContentValidation: Enabled validators:
+[2026.02.03-03.28.03:667][957]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.28.03:667][957]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.28.03:667][957]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.28.03:667][957]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.28.03:667][957]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.28.03:667][957]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.28.03:667][957]AssetCheck: /Game/Blueprints/BP_Piece3D Validating asset
+[2026.02.03-03.28.15:146][327]LogSlate: Window 'Color Picker' being destroyed
+[2026.02.03-03.28.20:075][616]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.28.20:140][616]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Piece3D] ([2] browsable assets)...
+[2026.02.03-03.28.20:140][616]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Piece3D]
+[2026.02.03-03.28.20:140][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Piece3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Piece3D.uasset" SILENT=true
+[2026.02.03-03.28.20:158][616]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Piece3D
+[2026.02.03-03.28.20:158][616]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Piece3D87AC056D4485EAB654237081B64D7EA7.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Piece3D.uasset'
+[2026.02.03-03.28.20:169][616]LogFileHelpers: InternalPromptForCheckoutAndSave took 94.709 ms (total: 3.67 sec)
+[2026.02.03-03.28.20:240][616]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.28.20:240][616]LogContentValidation: Enabled validators:
+[2026.02.03-03.28.20:240][616]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.28.20:240][616]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.28.20:240][616]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.28.20:240][616]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.28.20:240][616]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.28.20:240][616]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.28.20:240][616]AssetCheck: /Game/Blueprints/BP_Piece3D Validating asset
+[2026.02.03-03.28.23:900][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.02.03-03.28.43:521][997]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.28.43:579][997]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.28.43:747][997]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.28.43:747][997]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.28.43:747][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.28.43:773][997]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.28.43:773][997]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D330121A44164922F54D8F797F61E46D6.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.28.43:789][997]LogFileHelpers: InternalPromptForCheckoutAndSave took 266.890 ms (total: 3.93 sec)
+[2026.02.03-03.28.43:856][997]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.28.43:856][997]LogContentValidation: Enabled validators:
+[2026.02.03-03.28.43:856][997]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.28.43:856][997]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.28.43:856][997]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.28.43:856][997]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.28.43:856][997]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.28.43:856][997]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.28.43:856][997]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.28.44:274][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.02.03-03.29.22:306][122]LogSlate: Window 'Color Picker' being destroyed
+[2026.02.03-03.29.22:753][148]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.29.22:813][148]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.29.22:888][148]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.29.22:888][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.29.22:888][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.29.22:913][148]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.29.22:913][148]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D8C8E67804B54E81161435DB3FA70ED56.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.29.22:925][148]LogFileHelpers: InternalPromptForCheckoutAndSave took 171.247 ms (total: 4.10 sec)
+[2026.02.03-03.29.22:994][148]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.29.22:994][148]LogContentValidation: Enabled validators:
+[2026.02.03-03.29.22:994][148]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.29.22:994][148]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.29.22:994][148]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.29.22:994][148]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.29.22:994][148]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.29.22:994][148]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.29.22:994][148]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.29.23:720][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.02.03-03.29.24:919][238]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.03-03.29.24:924][238]LogContentBundle: [NewMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.03-03.29.24:924][238]LogWorldPartition: Display: GenerateStreaming for 'NewMap' started...
+[2026.02.03-03.29.24:925][238]LogWorldPartition: Display: GenerateStreaming for 'NewMap' took 693 us (total: 23.915 ms)
+[2026.02.03-03.29.24:925][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.03-03.29.24:925][238]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2026.02.03-03.29.24:939][238]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.03-03.29.24:943][238]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.922 ms (total: 103.099 ms)
+[2026.02.03-03.29.24:943][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017727s)
+[2026.02.03-03.29.24:943][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.017753s)
+[2026.02.03-03.29.24:963][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2026.02.03-03.29.24:966][238]LogChaosDD: Creating Chaos Debug Draw Scene for world NewMap
+[2026.02.03-03.29.24:967][238]LogWorldPartition: ULevel::OnLevelLoaded(NewMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.03-03.29.24:967][238]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.03-03.29.24:967][238]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_NewMap.NewMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.03-03.29.24:967][238]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.03-03.29.24:973][238]LogWorldPartition: Display: WorldPartition initialize took 5.116 ms (total: 387.305 ms)
+[2026.02.03-03.29.24:973][238]LogPlayLevel: PIE: World Init took: (0.006633s)
+[2026.02.03-03.29.24:973][238]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2026.02.03-03.29.24:974][238]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.03-03.29.24:974][238]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.03-03.29.24:974][238]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.03-03.29.24:974][238]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.03-03.29.24:974][238]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.03-03.29.24:974][238]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.03-03.29.24:974][238]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.03-03.29.24:974][238]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.03-03.29.24:974][238]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.03-03.29.24:974][238]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.03-03.29.24:974][238]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.03-03.29.24:976][238]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.03-03.29.24:995][238]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2026.02.03-03.29.24:995][238]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.03-03.29.24:995][238]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.03-03.29.24:995][238]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.03-03.29.24:995][238]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2026.02.03-03.29.24:995][238]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2026.02.03-03.29.24:998][238]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2026.02.03-03.29.24:998][238]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2026.02.03-03.29.24:998][238]LogInit: FAudioDevice initialized with ID 27.
+[2026.02.03-03.29.24:998][238]LogAudio: Display: Audio Device (ID: 27) registered with world 'NewMap'.
+[2026.02.03-03.29.24:998][238]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2026.02.03-03.29.25:001][238]LogLoad: Game class is 'BP_Tetris3DGM_C'
+[2026.02.03-03.29.25:002][238]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2026.02.02-22.29.25
+[2026.02.03-03.29.25:003][238]LogWorld: Bringing up level for play took: 0.001437
+[2026.02.03-03.29.25:005][238]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2026.02.03-03.29.25:006][238]LogStreaming: Display: FlushAsyncLoading(1089,1090,1091): 3 QueuedPackages, 0 AsyncPackages
+[2026.02.03-03.29.25:012][238]PIE: Server logged in
+[2026.02.03-03.29.25:013][238]PIE: Play in editor total start time 0.089 seconds.
+[2026.02.03-03.29.25:014][238]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_MoveX'
+[2026.02.03-03.29.25:054][239]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.03-03.29.25:735][278]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.26:519][325]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.27:320][373]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.28:264][429]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.29:066][474]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.29:868][522]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.30:666][570]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.31:467][618]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.32:267][666]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.33:067][714]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.33:867][762]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.34:667][810]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.35:467][858]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.36:267][906]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.37:067][954]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.37:867][  2]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.38:667][ 50]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.39:467][ 98]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.40:267][146]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.41:067][194]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Move: X=0 Y=0 Z=-1
+[2026.02.03-03.29.41:067][194]LogBlueprintUserMessages: [BP_Piece3D_C_UAID_B025AA6BF3E238BB02_1216979824] Can't Move
+[2026.02.03-03.29.47:623][587]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1351.112793
+[2026.02.03-03.29.47:739][594]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.03-03.29.47:739][594]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1351.213013, Update Interval: 339.890747
+[2026.02.03-03.29.51:811][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-03.29.51:811][836]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_NewMap
+[2026.02.03-03.29.51:811][836]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.03-03.29.51:812][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-03.29.51:812][836]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_NewMap.NewMap
+[2026.02.03-03.29.51:813][836]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.03-03.29.51:817][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-03.29.51:846][836]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.03-03.29.51:846][836]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2026.02.03-03.29.51:846][836]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=4
+[2026.02.03-03.29.51:849][836]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=2
+[2026.02.03-03.29.51:854][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-03.29.51:856][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.02.03-03.29.51:882][837]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2026.02.03-03.29.58:385][220]LogSlate: Took 0.009291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.02.03-03.32.23:713][564]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.32.23:780][564]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Piece3D] ([2] browsable assets)...
+[2026.02.03-03.32.23:780][564]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Piece3D]
+[2026.02.03-03.32.23:780][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Piece3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Piece3D.uasset" SILENT=true
+[2026.02.03-03.32.23:802][564]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Piece3D
+[2026.02.03-03.32.23:802][564]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Piece3D5E58EC4C4C4C92A6FB6208BD29AAB3FD.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Piece3D.uasset'
+[2026.02.03-03.32.23:813][564]LogFileHelpers: InternalPromptForCheckoutAndSave took 100.313 ms (total: 4.20 sec)
+[2026.02.03-03.32.23:883][564]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.32.23:883][564]LogContentValidation: Enabled validators:
+[2026.02.03-03.32.23:883][564]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.32.23:883][564]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.32.23:883][564]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.32.23:883][564]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.32.23:883][564]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.32.23:883][564]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.32.23:883][564]AssetCheck: /Game/Blueprints/BP_Piece3D Validating asset
+[2026.02.03-03.32.42:269][391]LogSlate: Took 0.000534 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2026.02.03-03.33.02:787][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.02.03-03.33.03:296][110]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.33.03:366][110]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Piece3D] ([2] browsable assets)...
+[2026.02.03-03.33.03:366][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Piece3D]
+[2026.02.03-03.33.03:366][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Piece3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Piece3D.uasset" SILENT=true
+[2026.02.03-03.33.03:389][110]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Piece3D
+[2026.02.03-03.33.03:389][110]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Piece3D7B97190640565C8027FFB1BDEAB86726.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Piece3D.uasset'
+[2026.02.03-03.33.03:399][110]LogFileHelpers: InternalPromptForCheckoutAndSave took 102.546 ms (total: 4.31 sec)
+[2026.02.03-03.33.03:465][110]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.33.03:465][110]LogContentValidation: Enabled validators:
+[2026.02.03-03.33.03:465][110]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.33.03:465][110]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.33.03:465][110]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.33.03:465][110]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.33.03:465][110]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.33.03:465][110]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.33.03:465][110]AssetCheck: /Game/Blueprints/BP_Piece3D Validating asset
+[2026.02.03-03.33.11:642][584]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.02.03-03.33.11:647][584]LogContentBrowser: Creating deferred item: NewFolder
+[2026.02.03-03.33.11:670][585]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.02.03-03.33.16:076][850]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2026.02.03-03.33.16:076][850]LogContentBrowser: End creating deferred item NewFolder
+[2026.02.03-03.33.19:213][ 32]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.02.03-03.33.19:218][ 32]LogContentBrowser: Creating deferred item: NewFolder
+[2026.02.03-03.33.19:236][ 33]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.02.03-03.33.22:213][212]LogContentBrowser: Attempting asset rename: NewFolder -> Structs
+[2026.02.03-03.33.22:213][212]LogContentBrowser: End creating deferred item NewFolder
+[2026.02.03-03.33.23:746][303]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.02.03-03.33.23:751][303]LogContentBrowser: Creating deferred item: NewFolder
+[2026.02.03-03.33.23:769][304]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.02.03-03.33.25:097][384]LogContentBrowser: Attempting asset rename: NewFolder -> Enums
+[2026.02.03-03.33.25:097][384]LogContentBrowser: End creating deferred item NewFolder
+[2026.02.03-03.33.30:502][676]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.02.03-03.33.30:504][676]LogStreaming: Display: FlushAsyncLoading(1092): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.03-03.33.31:935][751]LogSlate: Window 'Advanced Copy Asset Report' being destroyed
+[2026.02.03-03.33.32:005][751]LogStreaming: Display: FlushAsyncLoading(1093): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.03-03.33.32:005][751]LogClass: UUserDefinedStruct.Serialize 'ST_Cell' validation: Struct 'UserDefinedStruct /Game/Blueprints/Structs/ST_Cell.ST_Cell' is empty
+[2026.02.03-03.33.32:113][751]AssetTools: /Game/Blueprints/ST_Cell
+[2026.02.03-03.33.40:165][218]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.02.03-03.33.48:748][218]LogSlate: Window 'Delete Assets' being destroyed
+[2026.02.03-03.33.50:727][327]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.02.03-03.33.52:869][327]LogSlate: Window 'Delete Assets' being destroyed
+[2026.02.03-03.33.52:927][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2026.02.03-03.33.52:957][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.02.03-03.33.52:978][327]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.02.03-03.33.56:221][491]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.33.56:222][491]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.33.56:272][491]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.33.56:272][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.33.56:272][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.33.56:299][491]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.33.56:299][491]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D82B3F762412A125F94F214B605831928.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.33.56:300][491]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Structs/ST_Cell] ([1] browsable assets)...
+[2026.02.03-03.33.56:300][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Structs/ST_Cell]
+[2026.02.03-03.33.56:300][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Structs/ST_Cell" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/Structs/ST_Cell.uasset" SILENT=true
+[2026.02.03-03.33.56:306][491]LogSavePackage: Moving output files for package: /Game/Blueprints/Structs/ST_Cell
+[2026.02.03-03.33.56:306][491]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/ST_Cell80F168904EADE3E298C1C7AB3338879E.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/Structs/ST_Cell.uasset'
+[2026.02.03-03.33.56:307][491]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.896 ms (total: 4.39 sec)
+[2026.02.03-03.33.56:356][491]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.02.03-03.33.56:385][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.02.03-03.33.56:405][491]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.02.03-03.33.56:453][491]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.02.03-03.33.56:453][491]LogContentValidation: Display: Starting to validate 2 assets
+[2026.02.03-03.33.56:453][491]LogContentValidation: Enabled validators:
+[2026.02.03-03.33.56:453][491]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.33.56:453][491]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.33.56:453][491]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.33.56:453][491]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.33.56:453][491]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.33.56:453][491]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.33.56:454][491]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.33.56:454][491]AssetCheck: /Game/Blueprints/Structs/ST_Cell Validating asset
+[2026.02.03-03.33.56:475][491]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Unreal/Project/Tetris3D/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.03-03.34.01:049][748]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_16.svg'. File could not be found
+[2026.02.03-03.34.03:089][866]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2026.02.03-03.34.03:097][866]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2026.02.03-03.34.03:142][868]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2026.02.03-03.34.06:166][ 49]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> Axis
+[2026.02.03-03.34.06:169][ 49]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2026.02.03-03.34.07:546][131]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/Blueprints/Enums/Axis.Axis
+[2026.02.03-03.34.21:080][916]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.34.21:140][916]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Enums/Axis] ([1] browsable assets)...
+[2026.02.03-03.34.21:140][916]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enums/Axis]
+[2026.02.03-03.34.21:141][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enums/Axis" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/Enums/Axis.uasset" SILENT=true
+[2026.02.03-03.34.21:151][916]LogSavePackage: Moving output files for package: /Game/Blueprints/Enums/Axis
+[2026.02.03-03.34.21:151][916]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/Axis962154C847D4D986464E59B68D3967BE.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/Enums/Axis.uasset'
+[2026.02.03-03.34.21:161][916]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.910 ms (total: 4.47 sec)
+[2026.02.03-03.34.21:226][916]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.34.21:226][916]LogContentValidation: Enabled validators:
+[2026.02.03-03.34.21:226][916]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.34.21:226][916]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.34.21:226][916]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.34.21:226][916]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.34.21:226][916]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.34.21:226][916]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.34.21:226][916]AssetCheck: /Game/Blueprints/Enums/Axis Validating asset
+[2026.02.03-03.34.21:253][916]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Unreal/Project/Tetris3D/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.03-03.34.22:390][985]LogSlate: Window 'Axis' being destroyed
+[2026.02.03-03.35.50:865][899]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1714.348145
+[2026.02.03-03.35.50:965][905]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.03-03.35.50:965][905]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1714.430786, Update Interval: 305.627014
+[2026.02.03-03.36.05:846][734]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.36.05:915][734]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Piece3D] ([2] browsable assets)...
+[2026.02.03-03.36.05:915][734]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Piece3D]
+[2026.02.03-03.36.05:915][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Piece3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Piece3D.uasset" SILENT=true
+[2026.02.03-03.36.05:935][734]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Piece3D
+[2026.02.03-03.36.05:935][734]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Piece3D9EAB9CF84E1EEA2BCA3B4F88D9D2B6B0.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Piece3D.uasset'
+[2026.02.03-03.36.05:949][734]LogFileHelpers: InternalPromptForCheckoutAndSave took 99.665 ms (total: 4.57 sec)
+[2026.02.03-03.36.06:021][734]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.36.06:021][734]LogContentValidation: Enabled validators:
+[2026.02.03-03.36.06:021][734]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.36.06:021][734]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.36.06:021][734]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.36.06:021][734]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.36.06:021][734]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.36.06:021][734]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.36.06:021][734]AssetCheck: /Game/Blueprints/BP_Piece3D Validating asset
+[2026.02.03-03.36.33:292][170]LogEditorTransaction: Undo Add New Function
+[2026.02.03-03.37.51:062][371]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.37.51:123][371]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.37.51:274][371]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.37.51:275][371]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.37.51:275][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.37.51:313][371]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.37.51:313][371]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3DEC460990456CF34C5363C7ADAD15A75A.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.37.51:324][371]LogFileHelpers: InternalPromptForCheckoutAndSave took 261.704 ms (total: 4.83 sec)
+[2026.02.03-03.37.51:395][371]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.37.51:395][371]LogContentValidation: Enabled validators:
+[2026.02.03-03.37.51:395][371]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.37.51:395][371]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.37.51:395][371]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.37.51:395][371]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.37.51:395][371]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.37.51:395][371]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.37.51:395][371]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.39.04:615][484]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.39.04:678][484]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.39.04:759][484]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.39.04:759][484]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.39.04:759][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.39.04:788][484]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.39.04:788][484]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3DB04EB64B456A37F7780CB0AC1ED722B3.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.39.04:798][484]LogFileHelpers: InternalPromptForCheckoutAndSave took 182.483 ms (total: 5.02 sec)
+[2026.02.03-03.39.04:865][484]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.39.04:865][484]LogContentValidation: Enabled validators:
+[2026.02.03-03.39.04:865][484]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.39.04:865][484]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.39.04:865][484]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.39.04:865][484]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.39.04:865][484]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.39.04:865][484]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.39.04:865][484]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.39.28:902][910]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.39.28:966][910]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.39.29:052][910]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.39.29:052][910]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.39.29:052][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.39.29:084][910]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.39.29:084][910]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D432CA795410D0FC1E3D3DCBE99F775C1.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.39.29:096][910]LogFileHelpers: InternalPromptForCheckoutAndSave took 193.018 ms (total: 5.21 sec)
+[2026.02.03-03.39.29:156][910]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.39.29:156][910]LogContentValidation: Enabled validators:
+[2026.02.03-03.39.29:156][910]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.39.29:156][910]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.39.29:156][910]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.39.29:156][910]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.39.29:156][910]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.39.29:156][910]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.39.29:156][910]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.39.45:147][842]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.39.45:217][842]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.39.45:291][842]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.39.45:291][842]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.39.45:291][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.39.45:323][842]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.39.45:323][842]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D46AC0A004FF825F77948388F831B2C32.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.39.45:335][842]LogFileHelpers: InternalPromptForCheckoutAndSave took 187.779 ms (total: 5.40 sec)
+[2026.02.03-03.39.45:406][842]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.39.45:406][842]LogContentValidation: Enabled validators:
+[2026.02.03-03.39.45:406][842]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.39.45:406][842]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.39.45:406][842]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.39.45:406][842]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.39.45:406][842]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.39.45:406][842]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.39.45:407][842]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.41.45:036][403]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2068.517090
+[2026.02.03-03.41.45:153][410]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.03-03.41.45:153][410]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2068.616211, Update Interval: 359.501953
+[2026.02.03-03.44.23:801][233]LogBlueprint: Warning: Cannot name local variable 'Cleared'. The name is already used.
+[2026.02.03-03.46.30:926][739]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.46.30:990][739]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.46.31:076][739]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.46.31:076][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.46.31:076][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.46.31:112][739]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.46.31:113][739]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D356E3B6942DBFF3573C160B8FEEAC7B9.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.46.31:124][739]LogFileHelpers: InternalPromptForCheckoutAndSave took 197.700 ms (total: 5.60 sec)
+[2026.02.03-03.46.31:196][739]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.46.31:196][739]LogContentValidation: Enabled validators:
+[2026.02.03-03.46.31:196][739]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.46.31:196][739]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.46.31:196][739]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.46.31:196][739]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.46.31:196][739]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.46.31:196][739]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.46.31:196][739]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.46.35:162][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2026.02.03-03.47.20:171][339]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.47.20:228][339]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.47.20:306][339]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.47.20:306][339]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.47.20:306][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.47.20:338][339]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.47.20:338][339]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D59CFC9CE40519D27F60567B17D080345.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.47.20:351][339]LogFileHelpers: InternalPromptForCheckoutAndSave took 179.685 ms (total: 5.78 sec)
+[2026.02.03-03.47.20:418][339]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.47.20:418][339]LogContentValidation: Enabled validators:
+[2026.02.03-03.47.20:418][339]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.47.20:418][339]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.47.20:418][339]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.47.20:418][339]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.47.20:418][339]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.47.20:418][339]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.47.20:418][339]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.47.30:857][963]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.47.30:923][963]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.47.30:923][963]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.47.30:923][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.47.30:954][963]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.47.30:954][963]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3DA556064644CAABC93305E9A77F9E818D.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.47.30:964][963]LogFileHelpers: InternalPromptForCheckoutAndSave took 106.671 ms (total: 5.88 sec)
+[2026.02.03-03.47.31:031][963]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.47.31:031][963]LogContentValidation: Enabled validators:
+[2026.02.03-03.47.31:031][963]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.47.31:031][963]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.47.31:031][963]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.47.31:031][963]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.47.31:031][963]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.47.31:031][963]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.47.31:032][963]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.47.54:176][323]LogEditorTransaction: Undo Move Node
+[2026.02.03-03.47.54:532][336]LogEditorTransaction: Undo Add Node
+[2026.02.03-03.48.03:114][818]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.48.03:167][818]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.48.03:238][818]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.48.03:238][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.48.03:238][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.48.03:268][818]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.48.03:268][818]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D47D9ABED49E3B22FEF9542BA237CB1FF.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.48.03:279][818]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.339 ms (total: 6.05 sec)
+[2026.02.03-03.48.03:349][818]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.48.03:349][818]LogContentValidation: Enabled validators:
+[2026.02.03-03.48.03:349][818]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.48.03:349][818]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.48.03:349][818]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.48.03:349][818]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.48.03:349][818]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.48.03:349][818]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.48.03:349][818]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.48.27:092][235]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2470.564453
+[2026.02.03-03.48.27:176][240]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.03-03.48.27:176][240]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2470.632080, Update Interval: 323.509644
+[2026.02.03-03.48.33:693][629]LogEditorTransaction: Undo Rename Variable
+[2026.02.03-03.48.50:885][641]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.48.50:957][641]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.48.51:034][641]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.48.51:034][641]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.48.51:034][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.48.51:065][641]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.48.51:065][641]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3DA98894EF4AF1E2CEF70183AC897D8E34.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.48.51:077][641]LogFileHelpers: InternalPromptForCheckoutAndSave took 192.347 ms (total: 6.24 sec)
+[2026.02.03-03.48.51:151][641]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.48.51:152][641]LogContentValidation: Enabled validators:
+[2026.02.03-03.48.51:152][641]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.48.51:152][641]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.48.51:152][641]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.48.51:152][641]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.48.51:152][641]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.48.51:152][641]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.48.51:152][641]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.49.23:264][535]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.49.23:326][535]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.49.23:402][535]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.49.23:402][535]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.49.23:402][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.49.23:440][535]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.49.23:440][535]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D28FE675B443F6B2997BEC2809C463E0C.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.49.23:457][535]LogFileHelpers: InternalPromptForCheckoutAndSave took 189.608 ms (total: 6.43 sec)
+[2026.02.03-03.49.23:528][535]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.49.23:528][535]LogContentValidation: Enabled validators:
+[2026.02.03-03.49.23:528][535]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.49.23:528][535]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.49.23:528][535]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.49.23:528][535]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.49.23:528][535]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.49.23:528][535]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.49.23:528][535]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.49.37:322][342]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.49.37:388][342]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.49.37:541][342]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.49.37:541][342]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.49.37:541][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.49.37:580][342]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.49.37:581][342]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D394148B3426B95923F8242980C509EA8.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.49.37:590][342]LogFileHelpers: InternalPromptForCheckoutAndSave took 267.893 ms (total: 6.70 sec)
+[2026.02.03-03.49.37:660][342]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.49.37:660][342]LogContentValidation: Enabled validators:
+[2026.02.03-03.49.37:660][342]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.49.37:660][342]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.49.37:660][342]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.49.37:660][342]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.49.37:660][342]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.49.37:660][342]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.49.37:660][342]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.50.01:451][747]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.50.01:511][747]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.50.01:592][747]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.50.01:592][747]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.50.01:592][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.50.01:628][747]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.50.01:628][747]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3DEA7908974F50FD6F4AB86CAC164DD2F6.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.50.01:640][747]LogFileHelpers: InternalPromptForCheckoutAndSave took 188.577 ms (total: 6.89 sec)
+[2026.02.03-03.50.01:710][747]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.50.01:710][747]LogContentValidation: Enabled validators:
+[2026.02.03-03.50.01:710][747]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.50.01:710][747]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.50.01:710][747]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.50.01:710][747]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.50.01:710][747]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.50.01:710][747]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.50.01:710][747]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.50.10:379][267]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.50.10:442][267]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.50.10:442][267]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.50.10:442][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.50.10:472][267]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.50.10:472][267]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D249C5F734669E3324E82B3BA646212A2.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.50.10:483][267]LogFileHelpers: InternalPromptForCheckoutAndSave took 103.302 ms (total: 6.99 sec)
+[2026.02.03-03.50.10:554][267]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.50.10:554][267]LogContentValidation: Enabled validators:
+[2026.02.03-03.50.10:554][267]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.50.10:554][267]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.50.10:554][267]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.50.10:554][267]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.50.10:554][267]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.50.10:554][267]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.50.10:555][267]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.51.21:566][474]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.51.21:637][474]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.51.21:716][474]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.51.21:716][474]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.51.21:716][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.51.21:750][474]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.51.21:751][474]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3DA9D294A94D2EA2EFFF69A4B9BB063DB2.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.51.21:762][474]LogFileHelpers: InternalPromptForCheckoutAndSave took 196.876 ms (total: 7.19 sec)
+[2026.02.03-03.51.21:829][474]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.51.21:829][474]LogContentValidation: Enabled validators:
+[2026.02.03-03.51.21:829][474]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.51.21:829][474]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.51.21:829][474]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.51.21:829][474]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.51.21:829][474]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.51.21:829][474]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.51.21:829][474]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.51.25:667][704]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.51.25:734][704]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.51.25:734][704]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.51.25:734][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.51.25:766][704]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.51.25:766][704]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3DD5E096624F8DA1A850A4D593E52D4654.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.51.25:776][704]LogFileHelpers: InternalPromptForCheckoutAndSave took 109.824 ms (total: 7.30 sec)
+[2026.02.03-03.51.25:837][704]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.51.25:837][704]LogContentValidation: Enabled validators:
+[2026.02.03-03.51.25:837][704]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.51.25:837][704]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.51.25:837][704]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.51.25:837][704]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.51.25:837][704]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.51.25:837][704]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.51.25:837][704]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.52.06:054][114]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.52.06:121][114]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.52.06:192][114]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.52.06:193][114]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.52.06:193][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.52.06:224][114]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.52.06:224][114]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D3DF0D2FD4B5CB223243DF8822CDB5FF8.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.52.06:234][114]LogFileHelpers: InternalPromptForCheckoutAndSave took 180.474 ms (total: 7.48 sec)
+[2026.02.03-03.52.06:307][114]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.52.06:307][114]LogContentValidation: Enabled validators:
+[2026.02.03-03.52.06:307][114]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.52.06:307][114]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.52.06:307][114]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.52.06:307][114]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.52.06:307][114]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.52.06:307][114]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.52.06:307][114]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.52.09:822][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.02.03-03.54.25:677][179]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2829.152588
+[2026.02.03-03.54.25:794][186]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.03-03.54.25:794][187]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2829.252930, Update Interval: 358.610199
+[2026.02.03-03.54.40:559][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.54.40:622][ 72]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.54.40:762][ 72]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.54.40:763][ 72]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.54.40:763][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.54.40:796][ 72]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.54.40:797][ 72]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3DD7C59B92446F626329D26C9A5282C5AF.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.54.40:809][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave took 249.761 ms (total: 7.73 sec)
+[2026.02.03-03.54.40:881][ 72]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.54.40:881][ 72]LogContentValidation: Enabled validators:
+[2026.02.03-03.54.40:881][ 72]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.54.40:881][ 72]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.54.40:881][ 72]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.54.40:881][ 72]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.54.40:881][ 72]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.54.40:881][ 72]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.54.40:881][ 72]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.54.42:430][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.02.03-03.55.44:191][832]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.55.44:247][832]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.55.44:319][832]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.55.44:319][832]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.55.44:319][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.55.44:354][832]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.55.44:354][832]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3DB60690C34B729C8AD3B0188AD3010280.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.55.44:365][832]LogFileHelpers: InternalPromptForCheckoutAndSave took 173.770 ms (total: 7.90 sec)
+[2026.02.03-03.55.44:431][832]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.55.44:432][832]LogContentValidation: Enabled validators:
+[2026.02.03-03.55.44:432][832]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.55.44:432][832]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.55.44:432][832]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.55.44:432][832]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.55.44:432][832]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.55.44:432][832]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.55.44:432][832]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.55.51:688][267]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.55.51:752][267]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.55.51:752][267]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.55.51:752][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.55.51:784][267]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.55.51:784][267]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3DBEAE3B79462E283FF0DB1683E85E3000.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.55.51:794][267]LogFileHelpers: InternalPromptForCheckoutAndSave took 105.526 ms (total: 8.01 sec)
+[2026.02.03-03.55.51:866][267]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.55.51:866][267]LogContentValidation: Enabled validators:
+[2026.02.03-03.55.51:866][267]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.55.51:866][267]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.55.51:866][267]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.55.51:866][267]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.55.51:866][267]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.55.51:866][267]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.55.51:866][267]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.56.42:527][237]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.56.42:592][237]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.56.42:663][237]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.56.42:663][237]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.56.42:663][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.56.42:698][237]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.56.42:698][237]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D4959BFAF4D90CACD0D078C8FF74EC66C.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.56.42:710][237]LogFileHelpers: InternalPromptForCheckoutAndSave took 182.277 ms (total: 8.19 sec)
+[2026.02.03-03.56.42:772][237]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.56.42:772][237]LogContentValidation: Enabled validators:
+[2026.02.03-03.56.42:772][237]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.56.42:772][237]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.56.42:772][237]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.56.42:772][237]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.56.42:772][237]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.56.42:772][237]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.56.42:772][237]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.58.56:550][156]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.58.56:632][156]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.58.56:715][156]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.58.56:715][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.58.56:715][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.58.56:754][156]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.58.56:754][156]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D4C098E57420C5CDD21E831AA95DFD592.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.58.56:767][156]LogFileHelpers: InternalPromptForCheckoutAndSave took 216.767 ms (total: 8.40 sec)
+[2026.02.03-03.58.56:840][156]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.58.56:840][156]LogContentValidation: Enabled validators:
+[2026.02.03-03.58.56:840][156]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.58.56:840][156]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.58.56:840][156]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.58.56:840][156]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.58.56:840][156]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.58.56:840][156]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.58.56:840][156]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.58.58:616][262]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.58.58:687][262]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.58.58:688][262]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.58.58:688][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.58.58:720][262]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.58.58:721][262]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3DEF47C56E44E253D2A2284F8CA8839B60.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.58.58:731][262]LogFileHelpers: InternalPromptForCheckoutAndSave took 115.016 ms (total: 8.52 sec)
+[2026.02.03-03.58.58:800][262]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.58.58:800][262]LogContentValidation: Enabled validators:
+[2026.02.03-03.58.58:800][262]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.58.58:800][262]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.58.58:800][262]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.58.58:800][262]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.58.58:800][262]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.58.58:800][262]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.58.58:800][262]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-03.59.47:329][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-03.59.47:391][ 90]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-03.59.47:465][ 90]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-03.59.47:465][ 90]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-03.59.47:465][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-03.59.47:505][ 90]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-03.59.47:505][ 90]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3DC98FC2D04E5A64A34062E6BD5C7A210E.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-03.59.47:517][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave took 186.855 ms (total: 8.71 sec)
+[2026.02.03-03.59.47:582][ 90]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-03.59.47:582][ 90]LogContentValidation: Enabled validators:
+[2026.02.03-03.59.47:582][ 90]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-03.59.47:582][ 90]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-03.59.47:582][ 90]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-03.59.47:582][ 90]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-03.59.47:582][ 90]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-03.59.47:582][ 90]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-03.59.47:583][ 90]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-04.01.15:284][283]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3238.761475
+[2026.02.03-04.01.15:384][289]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.03-04.01.15:384][289]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3238.845703, Update Interval: 316.987213
+[2026.02.03-04.02.13:523][674]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-04.02.13:588][674]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-04.02.13:669][674]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Board3D.BP_Board3D]
+[2026.02.03-04.02.13:669][674]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-04.02.13:669][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-04.02.13:710][674]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-04.02.13:710][674]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D4BA9871041E9ED4DC3429CA11E49FBCE.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-04.02.13:720][674]LogFileHelpers: InternalPromptForCheckoutAndSave took 197.513 ms (total: 8.90 sec)
+[2026.02.03-04.02.13:786][674]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-04.02.13:786][674]LogContentValidation: Enabled validators:
+[2026.02.03-04.02.13:786][674]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-04.02.13:786][674]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-04.02.13:786][674]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-04.02.13:786][674]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-04.02.13:786][674]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-04.02.13:786][674]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-04.02.13:786][674]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-04.02.22:761][154]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-04.02.22:815][154]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Board3D] ([2] browsable assets)...
+[2026.02.03-04.02.22:816][154]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Board3D]
+[2026.02.03-04.02.22:816][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Board3D" FILE="../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset" SILENT=true
+[2026.02.03-04.02.22:850][154]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Board3D
+[2026.02.03-04.02.22:851][154]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/BP_Board3D1843C14241755BFF1D36088FC629B823.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/Blueprints/BP_Board3D.uasset'
+[2026.02.03-04.02.22:861][154]LogFileHelpers: InternalPromptForCheckoutAndSave took 100.490 ms (total: 9.00 sec)
+[2026.02.03-04.02.22:936][154]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-04.02.22:936][154]LogContentValidation: Enabled validators:
+[2026.02.03-04.02.22:936][154]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-04.02.22:936][154]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-04.02.22:936][154]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-04.02.22:936][154]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-04.02.22:936][154]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-04.02.22:936][154]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-04.02.22:936][154]AssetCheck: /Game/Blueprints/BP_Board3D Validating asset
+[2026.02.03-04.02.23:396][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
