@@ -2860,3 +2860,363 @@ LogInit: Object subsystem initialized
 [2026.02.03-20.10.47:993][513]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
 [2026.02.03-20.10.47:999][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
 [2026.02.03-20.10.48:039][514]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2026.02.03-20.12.18:274][389]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2026.02.03-20.12.31:879][204]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.03-20.12.32:984][270]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.03-20.12.33:890][324]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.03-20.12.46:845][100]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-20.12.46:904][100]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/NewMap/6/S0/K9JV35SGQJPSF04CJLIGDO
+[2026.02.03-20.12.46:905][100]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/K9JV35SGQJPSF04CJLIGDO953654E74F18AA035422EE9FEC12AE84.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/__ExternalActors__/Levels/NewMap/6/S0/K9JV35SGQJPSF04CJLIGDO.uasset'
+[2026.02.03-20.12.46:915][100]LogFileHelpers: InternalPromptForCheckoutAndSave took 69.042 ms (total: 4.68 sec)
+[2026.02.03-20.12.46:978][100]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-20.12.46:978][100]LogContentValidation: Enabled validators:
+[2026.02.03-20.12.46:978][100]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-20.12.46:979][100]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-20.12.46:979][100]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-20.12.46:979][100]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-20.12.46:979][100]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-20.12.46:979][100]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-20.12.46:979][100]AssetCheck: /Game/Levels/NewMap Validating asset
+[2026.02.03-20.12.47:476][130]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.03-20.12.47:481][130]LogContentBundle: [NewMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.03-20.12.47:481][130]LogWorldPartition: Display: GenerateStreaming for 'NewMap' started...
+[2026.02.03-20.12.47:482][130]LogWorldPartition: Display: GenerateStreaming for 'NewMap' took 734 us (total: 6.966 ms)
+[2026.02.03-20.12.47:482][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.03-20.12.47:482][130]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2026.02.03-20.12.47:496][130]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.03-20.12.47:500][130]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.894 ms (total: 35.178 ms)
+[2026.02.03-20.12.47:500][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017374s)
+[2026.02.03-20.12.47:500][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.017399s)
+[2026.02.03-20.12.47:517][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.02.03-20.12.47:519][130]LogChaosDD: Creating Chaos Debug Draw Scene for world NewMap
+[2026.02.03-20.12.47:520][130]LogWorldPartition: ULevel::OnLevelLoaded(NewMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.03-20.12.47:520][130]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.03-20.12.47:520][130]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_NewMap.NewMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.03-20.12.47:520][130]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.03-20.12.47:524][130]LogWorldPartition: Display: WorldPartition initialize took 5.055 ms (total: 154.243 ms)
+[2026.02.03-20.12.47:524][130]LogPlayLevel: PIE: World Init took: (0.006536s)
+[2026.02.03-20.12.47:525][130]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.02.03-20.12.47:525][130]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.03-20.12.47:525][130]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.03-20.12.47:525][130]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.03-20.12.47:525][130]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.03-20.12.47:525][130]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.03-20.12.47:525][130]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.03-20.12.47:525][130]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.03-20.12.47:525][130]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.03-20.12.47:525][130]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.03-20.12.47:525][130]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.03-20.12.47:525][130]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.03-20.12.47:527][130]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.03-20.12.47:548][130]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2026.02.03-20.12.47:548][130]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.03-20.12.47:548][130]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.03-20.12.47:548][130]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.03-20.12.47:548][130]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.02.03-20.12.47:548][130]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.02.03-20.12.47:551][130]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.02.03-20.12.47:551][130]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.02.03-20.12.47:551][130]LogInit: FAudioDevice initialized with ID 10.
+[2026.02.03-20.12.47:551][130]LogAudio: Display: Audio Device (ID: 10) registered with world 'NewMap'.
+[2026.02.03-20.12.47:551][130]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.02.03-20.12.47:555][130]LogStreaming: Display: FlushAsyncLoading(665): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.03-20.12.47:555][130]LogLoad: Game class is 'GM_Tetris3D_C'
+[2026.02.03-20.12.47:557][130]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2026.02.03-15.12.47
+[2026.02.03-20.12.47:557][130]LogWorld: Bringing up level for play took: 0.001547
+[2026.02.03-20.12.47:559][130]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2026.02.03-20.12.47:564][130]PIE: Server logged in
+[2026.02.03-20.12.47:565][130]PIE: Play in editor total start time 0.084 seconds.
+[2026.02.03-20.12.47:567][130]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_MoveX'
+[2026.02.03-20.12.47:614][131]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.03-20.12.49:763][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-20.12.49:763][253]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_NewMap
+[2026.02.03-20.12.49:764][253]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.03-20.12.49:765][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-20.12.49:765][253]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_NewMap.NewMap
+[2026.02.03-20.12.49:767][253]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.03-20.12.49:771][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-20.12.49:793][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-20.12.49:794][253]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.02.03-20.12.49:794][253]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2026.02.03-20.12.49:796][253]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2026.02.03-20.12.49:802][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.02.03-20.12.49:835][254]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2026.02.03-20.13.03:320][ 62]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.03-20.13.12:340][601]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-20.13.12:407][601]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/NewMap/6/S0/K9JV35SGQJPSF04CJLIGDO
+[2026.02.03-20.13.12:407][601]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/K9JV35SGQJPSF04CJLIGDO2C5669BF485DD4B6E9CC8783ED6C1615.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/__ExternalActors__/Levels/NewMap/6/S0/K9JV35SGQJPSF04CJLIGDO.uasset'
+[2026.02.03-20.13.12:416][601]LogFileHelpers: InternalPromptForCheckoutAndSave took 76.305 ms (total: 4.75 sec)
+[2026.02.03-20.13.12:469][601]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-20.13.12:469][601]LogContentValidation: Enabled validators:
+[2026.02.03-20.13.12:469][601]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-20.13.12:469][601]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-20.13.12:469][601]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-20.13.12:469][601]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-20.13.12:469][601]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-20.13.12:469][601]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-20.13.12:470][601]AssetCheck: /Game/Levels/NewMap Validating asset
+[2026.02.03-20.13.13:017][634]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.03-20.13.13:021][634]LogContentBundle: [NewMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.03-20.13.13:021][634]LogWorldPartition: Display: GenerateStreaming for 'NewMap' started...
+[2026.02.03-20.13.13:022][634]LogWorldPartition: Display: GenerateStreaming for 'NewMap' took 702 us (total: 7.669 ms)
+[2026.02.03-20.13.13:022][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.03-20.13.13:022][634]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2026.02.03-20.13.13:036][634]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.03-20.13.13:040][634]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.890 ms (total: 39.068 ms)
+[2026.02.03-20.13.13:040][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017828s)
+[2026.02.03-20.13.13:040][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.017856s)
+[2026.02.03-20.13.13:059][634]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.02.03-20.13.13:061][634]LogChaosDD: Creating Chaos Debug Draw Scene for world NewMap
+[2026.02.03-20.13.13:062][634]LogWorldPartition: ULevel::OnLevelLoaded(NewMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.03-20.13.13:062][634]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.03-20.13.13:062][634]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_NewMap.NewMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.03-20.13.13:062][634]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.03-20.13.13:067][634]LogWorldPartition: Display: WorldPartition initialize took 5.082 ms (total: 159.325 ms)
+[2026.02.03-20.13.13:067][634]LogPlayLevel: PIE: World Init took: (0.006540s)
+[2026.02.03-20.13.13:068][634]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.02.03-20.13.13:068][634]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.03-20.13.13:068][634]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.03-20.13.13:068][634]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.03-20.13.13:068][634]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.03-20.13.13:068][634]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.03-20.13.13:068][634]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.03-20.13.13:068][634]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.03-20.13.13:068][634]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.03-20.13.13:068][634]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.03-20.13.13:068][634]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.03-20.13.13:068][634]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.03-20.13.13:070][634]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.03-20.13.13:087][634]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2026.02.03-20.13.13:087][634]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.03-20.13.13:087][634]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.03-20.13.13:087][634]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.03-20.13.13:087][634]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2026.02.03-20.13.13:087][634]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2026.02.03-20.13.13:089][634]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.02.03-20.13.13:089][634]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2026.02.03-20.13.13:089][634]LogInit: FAudioDevice initialized with ID 11.
+[2026.02.03-20.13.13:089][634]LogAudio: Display: Audio Device (ID: 11) registered with world 'NewMap'.
+[2026.02.03-20.13.13:089][634]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.02.03-20.13.13:093][634]LogStreaming: Display: FlushAsyncLoading(671): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.03-20.13.13:093][634]LogLoad: Game class is 'GM_Tetris3D_C'
+[2026.02.03-20.13.13:095][634]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2026.02.03-15.13.13
+[2026.02.03-20.13.13:095][634]LogWorld: Bringing up level for play took: 0.001406
+[2026.02.03-20.13.13:097][634]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2026.02.03-20.13.13:101][634]PIE: Server logged in
+[2026.02.03-20.13.13:103][634]PIE: Play in editor total start time 0.082 seconds.
+[2026.02.03-20.13.13:104][634]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_MoveX'
+[2026.02.03-20.13.13:151][635]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.03-20.13.17:418][852]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.13.17:418][852]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.13.17:633][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-20.13.17:633][863]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_NewMap
+[2026.02.03-20.13.17:634][863]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.03-20.13.17:634][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-20.13.17:634][863]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_NewMap.NewMap
+[2026.02.03-20.13.17:635][863]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.03-20.13.17:639][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-20.13.17:676][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-20.13.17:677][863]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.02.03-20.13.17:677][863]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2026.02.03-20.13.17:679][863]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2026.02.03-20.13.17:684][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.02.03-20.13.17:716][864]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2026.02.03-20.13.23:755][225]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-20.13.23:823][225]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/NewMap/6/S0/K9JV35SGQJPSF04CJLIGDO
+[2026.02.03-20.13.23:823][225]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/K9JV35SGQJPSF04CJLIGDO2FFDBC424AB96BB3080B268DE116A592.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/__ExternalActors__/Levels/NewMap/6/S0/K9JV35SGQJPSF04CJLIGDO.uasset'
+[2026.02.03-20.13.23:835][225]LogFileHelpers: InternalPromptForCheckoutAndSave took 77.997 ms (total: 4.83 sec)
+[2026.02.03-20.13.23:895][225]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-20.13.23:896][225]LogContentValidation: Enabled validators:
+[2026.02.03-20.13.23:896][225]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-20.13.23:896][225]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-20.13.23:896][225]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-20.13.23:896][225]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-20.13.23:896][225]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-20.13.23:896][225]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-20.13.23:896][225]AssetCheck: /Game/Levels/NewMap Validating asset
+[2026.02.03-20.13.26:331][371]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-20.13.26:397][371]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/NewMap/6/S0/K9JV35SGQJPSF04CJLIGDO
+[2026.02.03-20.13.26:397][371]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/K9JV35SGQJPSF04CJLIGDOA3C544B54DD3A7105A2B1BB18454DAF5.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/__ExternalActors__/Levels/NewMap/6/S0/K9JV35SGQJPSF04CJLIGDO.uasset'
+[2026.02.03-20.13.26:407][371]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.545 ms (total: 4.91 sec)
+[2026.02.03-20.13.26:464][371]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-20.13.26:464][371]LogContentValidation: Enabled validators:
+[2026.02.03-20.13.26:464][371]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-20.13.26:464][371]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-20.13.26:464][371]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-20.13.26:464][371]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-20.13.26:464][371]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-20.13.26:464][371]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-20.13.26:464][371]AssetCheck: /Game/Levels/NewMap Validating asset
+[2026.02.03-20.13.27:499][433]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.03-20.13.27:504][433]LogContentBundle: [NewMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.03-20.13.27:504][433]LogWorldPartition: Display: GenerateStreaming for 'NewMap' started...
+[2026.02.03-20.13.27:505][433]LogWorldPartition: Display: GenerateStreaming for 'NewMap' took 695 us (total: 8.364 ms)
+[2026.02.03-20.13.27:505][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.03-20.13.27:505][433]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2026.02.03-20.13.27:518][433]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.03-20.13.27:523][433]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 4.063 ms (total: 43.131 ms)
+[2026.02.03-20.13.27:523][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017543s)
+[2026.02.03-20.13.27:523][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.017571s)
+[2026.02.03-20.13.27:539][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.02.03-20.13.27:541][433]LogChaosDD: Creating Chaos Debug Draw Scene for world NewMap
+[2026.02.03-20.13.27:543][433]LogWorldPartition: ULevel::OnLevelLoaded(NewMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.03-20.13.27:543][433]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.03-20.13.27:543][433]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_NewMap.NewMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.03-20.13.27:543][433]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.03-20.13.27:548][433]LogWorldPartition: Display: WorldPartition initialize took 5.003 ms (total: 164.328 ms)
+[2026.02.03-20.13.27:548][433]LogPlayLevel: PIE: World Init took: (0.006420s)
+[2026.02.03-20.13.27:548][433]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2026.02.03-20.13.27:548][433]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.03-20.13.27:548][433]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.03-20.13.27:548][433]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.03-20.13.27:548][433]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.03-20.13.27:548][433]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.03-20.13.27:548][433]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.03-20.13.27:548][433]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.03-20.13.27:549][433]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.03-20.13.27:549][433]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.03-20.13.27:549][433]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.03-20.13.27:549][433]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.03-20.13.27:551][433]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.03-20.13.27:568][433]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2026.02.03-20.13.27:568][433]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.03-20.13.27:568][433]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.03-20.13.27:568][433]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.03-20.13.27:568][433]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2026.02.03-20.13.27:568][433]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2026.02.03-20.13.27:571][433]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2026.02.03-20.13.27:571][433]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2026.02.03-20.13.27:571][433]LogInit: FAudioDevice initialized with ID 12.
+[2026.02.03-20.13.27:571][433]LogAudio: Display: Audio Device (ID: 12) registered with world 'NewMap'.
+[2026.02.03-20.13.27:571][433]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2026.02.03-20.13.27:575][433]LogStreaming: Display: FlushAsyncLoading(677): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.03-20.13.27:575][433]LogLoad: Game class is 'GM_Tetris3D_C'
+[2026.02.03-20.13.27:576][433]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2026.02.03-15.13.27
+[2026.02.03-20.13.27:576][433]LogWorld: Bringing up level for play took: 0.001464
+[2026.02.03-20.13.27:578][433]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2026.02.03-20.13.27:585][433]PIE: Server logged in
+[2026.02.03-20.13.27:586][433]PIE: Play in editor total start time 0.083 seconds.
+[2026.02.03-20.13.27:588][433]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_MoveX'
+[2026.02.03-20.13.27:632][434]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.03-20.13.29:364][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-20.13.29:364][534]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_NewMap
+[2026.02.03-20.13.29:365][534]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.03-20.13.29:365][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-20.13.29:365][534]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_NewMap.NewMap
+[2026.02.03-20.13.29:369][534]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.03-20.13.29:374][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-20.13.29:395][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-20.13.29:395][534]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2026.02.03-20.13.29:395][534]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=4
+[2026.02.03-20.13.29:397][534]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=2
+[2026.02.03-20.13.29:404][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.02.03-20.13.29:436][535]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2026.02.03-20.13.33:426][773]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.03-20.13.33:484][773]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/NewMap/6/S0/K9JV35SGQJPSF04CJLIGDO
+[2026.02.03-20.13.33:484][773]LogSavePackage: Moving '../../../../../../Unreal/Project/Tetris3D/Saved/K9JV35SGQJPSF04CJLIGDOCAFA1B504FA215B18DB0DAAA3001F3B3.tmp' to '../../../../../../Unreal/Project/Tetris3D/Content/__ExternalActors__/Levels/NewMap/6/S0/K9JV35SGQJPSF04CJLIGDO.uasset'
+[2026.02.03-20.13.33:492][773]LogFileHelpers: InternalPromptForCheckoutAndSave took 67.065 ms (total: 4.98 sec)
+[2026.02.03-20.13.33:554][773]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.03-20.13.33:554][773]LogContentValidation: Enabled validators:
+[2026.02.03-20.13.33:554][773]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.03-20.13.33:554][773]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.03-20.13.33:555][773]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.03-20.13.33:555][773]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.03-20.13.33:555][773]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.03-20.13.33:555][773]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.03-20.13.33:555][773]AssetCheck: /Game/Levels/NewMap Validating asset
+[2026.02.03-20.13.34:530][831]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.03-20.13.34:535][831]LogContentBundle: [NewMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.03-20.13.34:535][831]LogWorldPartition: Display: GenerateStreaming for 'NewMap' started...
+[2026.02.03-20.13.34:536][831]LogWorldPartition: Display: GenerateStreaming for 'NewMap' took 714 us (total: 9.078 ms)
+[2026.02.03-20.13.34:536][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.03-20.13.34:536][831]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2026.02.03-20.13.34:549][831]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.03-20.13.34:553][831]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.940 ms (total: 47.072 ms)
+[2026.02.03-20.13.34:553][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017466s)
+[2026.02.03-20.13.34:553][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.017492s)
+[2026.02.03-20.13.34:572][831]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.02.03-20.13.34:573][831]LogChaosDD: Creating Chaos Debug Draw Scene for world NewMap
+[2026.02.03-20.13.34:574][831]LogWorldPartition: ULevel::OnLevelLoaded(NewMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.03-20.13.34:574][831]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.03-20.13.34:574][831]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_NewMap.NewMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.03-20.13.34:574][831]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.03-20.13.34:579][831]LogWorldPartition: Display: WorldPartition initialize took 5.013 ms (total: 169.341 ms)
+[2026.02.03-20.13.34:579][831]LogPlayLevel: PIE: World Init took: (0.006418s)
+[2026.02.03-20.13.34:580][831]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2026.02.03-20.13.34:580][831]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.03-20.13.34:580][831]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.03-20.13.34:580][831]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.03-20.13.34:580][831]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.03-20.13.34:580][831]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.03-20.13.34:580][831]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.03-20.13.34:580][831]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.03-20.13.34:580][831]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.03-20.13.34:580][831]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.03-20.13.34:580][831]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.03-20.13.34:580][831]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.03-20.13.34:582][831]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.03-20.13.34:599][831]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2026.02.03-20.13.34:599][831]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.03-20.13.34:599][831]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.03-20.13.34:599][831]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.03-20.13.34:599][831]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2026.02.03-20.13.34:599][831]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2026.02.03-20.13.34:601][831]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2026.02.03-20.13.34:601][831]LogInit: FAudioDevice initialized with ID 13.
+[2026.02.03-20.13.34:601][831]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2026.02.03-20.13.34:601][831]LogAudio: Display: Audio Device (ID: 13) registered with world 'NewMap'.
+[2026.02.03-20.13.34:601][831]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2026.02.03-20.13.34:604][831]LogStreaming: Display: FlushAsyncLoading(683): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.03-20.13.34:604][831]LogLoad: Game class is 'GM_Tetris3D_C'
+[2026.02.03-20.13.34:606][831]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2026.02.03-15.13.34
+[2026.02.03-20.13.34:606][831]LogWorld: Bringing up level for play took: 0.001431
+[2026.02.03-20.13.34:608][831]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2026.02.03-20.13.34:613][831]PIE: Server logged in
+[2026.02.03-20.13.34:615][831]PIE: Play in editor total start time 0.08 seconds.
+[2026.02.03-20.13.34:616][831]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_MoveX'
+[2026.02.03-20.13.34:659][832]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.03-20.13.38:939][ 88]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.13.38:940][ 88]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.13.42:939][328]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.13.42:940][328]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.13.47:739][616]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.13.47:739][616]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.13.52:139][880]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.13.52:139][880]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.13.55:339][ 72]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.13.55:340][ 72]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.13.59:339][312]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.13.59:339][312]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.14.02:152][480]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.14.02:152][480]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.14.05:351][672]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.14.05:352][672]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.14.07:352][792]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.14.07:353][792]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.14.10:152][960]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.14.10:153][960]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.14.12:152][ 80]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.14.12:153][ 80]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.14.14:152][200]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.14.14:153][200]LogBlueprintUserMessages: [BP_Board3D_C_UAID_B025AA6BF3E238BB02_1176033823] RebuildLockedMeshes
+[2026.02.03-20.14.17:032][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-20.14.17:032][333]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_NewMap
+[2026.02.03-20.14.17:033][333]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.03-20.14.17:033][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-20.14.17:033][333]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_NewMap.NewMap
+[2026.02.03-20.14.17:035][333]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.03-20.14.17:037][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.03-20.14.17:062][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.03-20.14.17:062][333]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2026.02.03-20.14.17:062][333]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=4
+[2026.02.03-20.14.17:065][333]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=2
+[2026.02.03-20.14.17:072][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2026.02.03-20.14.17:108][334]LogPlayLevel: Display: Destroying online subsystem :Context_18
